@@ -1,0 +1,194 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@100&display=swap');
+
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting a container with margin */
+.container {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Styling the navbar container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/* Styling the logo image in the navbar */
+.navbar-container > div > img {
+    height: 40px;
+}
+
+/* Styling the navigation list */
+.list {
+    display: flex;
+    list-style: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Styling the first list item with underline */
+.list-item:first-child {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+}
+
+/* Styling other list items */
+.list-item {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/* Styling a button group */
+.button-group {
+    display: flex;
+}
+
+/* Styling SVG images */
+svg {
+    height: 20px;
+    margin-top: 9px;
+    margin-right: 6px;
+}
+
+/* Styling navigation buttons */
+.nav-button {
+    background: transparent;
+    padding: 6px 40px;
+    border-radius: 9px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Styling the hero container */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Styling square and its image */
+.square {
+    position: absolute;
+    left: 200px;
+    top: 340px;
+}
+
+.square > img {
+    height: 300px;
+    width: 300px;
+}
+
+/* Styling images within the hero container */
+.hero-container > div > img {
+    margin-left: 80px;
+    width: 350px;
+    position: relative;
+    right: 225px;
+    top: 90px;
+}
+
+/* Styling the globe and its image */
+.globe {
+    position: relative;
+    left: 540px;
+    top: 60px;
+}
+
+.globe > img {
+    height: 50px;
+}
+
+/* Styling stars and their images */
+.star {
+    position: relative;
+    left: 1030px;
+    height: 100px;
+    bottom: -80px;
+}
+
+.star > img {
+    height: 50px;
+}
+
+/* Styling the second star */
+.star:nth-child(2) {
+    position: relative;
+    top: 490px;
+    left: 42%;
+}
+
+.star:nth-child(2) > img {
+    height: 38px;
+}
+
+/* Styling the right side of the hero container */
+.hero-container-right {
+    margin-top: 150px;
+}
+
+/* Styling the hero heading */
+.hero-heading {
+    display: inline;
+    position: relative;
+    right: 40px;
+    font-size: 39px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Styling the hero description */
+.hero-description {
+    position: absolute;
+    right: 20px;
+    padding: 20px 70px;
+    text-align: center;
+    color: #606060;
+    position: relative;
+    right: 30px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling email and join buttons */
+.button-email {
+    margin-top: 40px;
+    margin-left: 145px;
+    background: transparent;
+    color: #606060;
+    padding: 3px 14px;
+    border-radius: 10px;
+    font-size: small;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.button-join {
+    background-color: #0B0C0E;
+    color: white;
+    padding: 3px 3px;
+    border-radius: 10px;
+    font-size: small;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Styling the h4 element in the hero container right */
+.hero-container-right > div > h4 {
+    margin-top: 80px;
+    margin-left: 215px;
+    color: #606060;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
